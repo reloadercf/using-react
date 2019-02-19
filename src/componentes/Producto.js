@@ -3,9 +3,12 @@ import React,{Component} from 'react';
 
 class Producto extends Component{
     render(){
+        // destructing
+        const {nombre,precio}=this.props.producto
         return(
             <div>
-                {console.log(this.props)}
+                <strong>{nombre} </strong>
+                Precio: ${precio}
             </div>
         );
     }
