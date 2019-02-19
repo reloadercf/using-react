@@ -1,8 +1,14 @@
-import React from 'react';
+import React,{Component} from 'react';
+import Header from './Header'
 
-class PrimerComponente extends React.Component{
+class PrimerComponente extends Component{
     render(){
-        return <p>From my first Component</p>
+        return(
+            <div>
+                <Header/>
+                <p>Hello From my First Component</p>
+            </div>
+        );
     }
 }
 export default PrimerComponente;
