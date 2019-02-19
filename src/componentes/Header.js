@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react'
 
 const Header =()=>{
-        return(
-            <div>
-                <h1>Name Site</h1>
-            </div>
-        );
+    return(
+        <header>
+           <h1>Tienda virtual</h1>
+        </header>
+    )
 }
 export default Header;
